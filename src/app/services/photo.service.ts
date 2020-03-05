@@ -8,6 +8,7 @@ import { Storage } from '@ionic/storage';
 export class PhotoService {
 
   public photos: Photo[] = [];
+  private PHOTO_STORAGE = 'photos';
 
   constructor(private camera: Camera, private storage: Storage) { }
 
